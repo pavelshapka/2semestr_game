@@ -6,15 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/Users/shapkapavel/CLionProjects/2semestr/tMap.cpp
-tMap.h
-/Users/shapkapavel/CLionProjects/2semestr/tMap.h
+/Users/shapkapavel/CLionProjects/2semestr/tApplication.cpp
+tApplication.h
+/Users/shapkapavel/CLionProjects/2semestr/tApplication.h
+
+/Users/shapkapavel/CLionProjects/2semestr/tApplication.h
+SFML/Graphics.hpp
+-
+SFML/System/Vector2.hpp
+-
+SFML/System.hpp
+-
 iostream
 -
+chrono
+-
+tMap.h
+/Users/shapkapavel/CLionProjects/2semestr/tMap.h
+tObject.h
+/Users/shapkapavel/CLionProjects/2semestr/tObject.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tMap.h
 SFML/Graphics.hpp
 /Users/shapkapavel/CLionProjects/2semestr/SFML/Graphics.hpp
+filesystem
+-
+
+/Users/shapkapavel/CLionProjects/2semestr/tObject.h
+SFML/Graphics.hpp
+-
 filesystem
 -
 

@@ -7,11 +7,13 @@
 #include <iostream>
 #include <chrono>
 #include "tMap.h"
+#include "tObject.h"
 
 class tApplication {
 protected:
     sf::RenderWindow* Window;
     tMap *Map;
+    tObject *Object;
 
 public:
     tApplication();

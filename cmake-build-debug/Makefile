@@ -201,6 +201,30 @@ tMap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tMap.cpp.s
 .PHONY : tMap.cpp.s
 
+tObject.o: tObject.cpp.o
+.PHONY : tObject.o
+
+# target to build an object file
+tObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tObject.cpp.o
+.PHONY : tObject.cpp.o
+
+tObject.i: tObject.cpp.i
+.PHONY : tObject.i
+
+# target to preprocess a source file
+tObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tObject.cpp.i
+.PHONY : tObject.cpp.i
+
+tObject.s: tObject.cpp.s
+.PHONY : tObject.s
+
+# target to generate assembly for a file
+tObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tObject.cpp.s
+.PHONY : tObject.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... tMap.o"
 	@echo "... tMap.i"
 	@echo "... tMap.s"
+	@echo "... tObject.o"
+	@echo "... tObject.i"
+	@echo "... tObject.s"
 .PHONY : help
 
 

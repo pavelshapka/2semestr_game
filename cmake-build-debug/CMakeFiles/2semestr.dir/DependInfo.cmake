@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shapkapavel/CLionProjects/2semestr/main.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/main.cpp.o"
   "/Users/shapkapavel/CLionProjects/2semestr/tApplication.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tApplication.cpp.o"
   "/Users/shapkapavel/CLionProjects/2semestr/tMap.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tMap.cpp.o"
+  "/Users/shapkapavel/CLionProjects/2semestr/tObject.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tObject.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

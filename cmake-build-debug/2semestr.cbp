@@ -97,6 +97,12 @@
 		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tMap.h">
 			<Option target="2semestr"/>
 		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tObject.cpp">
+			<Option target="2semestr"/>
+		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tObject.h">
+			<Option target="2semestr"/>
+		</Unit>
 		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
