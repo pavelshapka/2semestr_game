@@ -6,14 +6,18 @@
 #include <SFML/System.hpp>
 #include <iostream>
 #include <chrono>
+#include <vector>
 #include "tMap.h"
 #include "tObject.h"
+#include "tDanger.h"
+#include "Constants.h"
 
 class tApplication {
 protected:
     sf::RenderWindow* Window;
     tMap *Map;
     tObject *Object;
+    std::vector<tDanger*> Danger;
 
 public:
     tApplication();

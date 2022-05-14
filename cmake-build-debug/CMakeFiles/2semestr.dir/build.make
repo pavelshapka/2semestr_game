@@ -118,12 +118,54 @@ CMakeFiles/2semestr.dir/tObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2semestr.dir/tObject.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shapkapavel/CLionProjects/2semestr/tObject.cpp -o CMakeFiles/2semestr.dir/tObject.cpp.s
 
+CMakeFiles/2semestr.dir/tDanger.cpp.o: CMakeFiles/2semestr.dir/flags.make
+CMakeFiles/2semestr.dir/tDanger.cpp.o: ../tDanger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/2semestr.dir/tDanger.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2semestr.dir/tDanger.cpp.o -c /Users/shapkapavel/CLionProjects/2semestr/tDanger.cpp
+
+CMakeFiles/2semestr.dir/tDanger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2semestr.dir/tDanger.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shapkapavel/CLionProjects/2semestr/tDanger.cpp > CMakeFiles/2semestr.dir/tDanger.cpp.i
+
+CMakeFiles/2semestr.dir/tDanger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2semestr.dir/tDanger.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shapkapavel/CLionProjects/2semestr/tDanger.cpp -o CMakeFiles/2semestr.dir/tDanger.cpp.s
+
+CMakeFiles/2semestr.dir/tBase_Obj.cpp.o: CMakeFiles/2semestr.dir/flags.make
+CMakeFiles/2semestr.dir/tBase_Obj.cpp.o: ../tBase_Obj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/2semestr.dir/tBase_Obj.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2semestr.dir/tBase_Obj.cpp.o -c /Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.cpp
+
+CMakeFiles/2semestr.dir/tBase_Obj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2semestr.dir/tBase_Obj.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.cpp > CMakeFiles/2semestr.dir/tBase_Obj.cpp.i
+
+CMakeFiles/2semestr.dir/tBase_Obj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2semestr.dir/tBase_Obj.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.cpp -o CMakeFiles/2semestr.dir/tBase_Obj.cpp.s
+
+CMakeFiles/2semestr.dir/functions.cpp.o: CMakeFiles/2semestr.dir/flags.make
+CMakeFiles/2semestr.dir/functions.cpp.o: ../functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/2semestr.dir/functions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2semestr.dir/functions.cpp.o -c /Users/shapkapavel/CLionProjects/2semestr/functions.cpp
+
+CMakeFiles/2semestr.dir/functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2semestr.dir/functions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shapkapavel/CLionProjects/2semestr/functions.cpp > CMakeFiles/2semestr.dir/functions.cpp.i
+
+CMakeFiles/2semestr.dir/functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2semestr.dir/functions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shapkapavel/CLionProjects/2semestr/functions.cpp -o CMakeFiles/2semestr.dir/functions.cpp.s
+
 # Object files for target 2semestr
 2semestr_OBJECTS = \
 "CMakeFiles/2semestr.dir/main.cpp.o" \
 "CMakeFiles/2semestr.dir/tApplication.cpp.o" \
 "CMakeFiles/2semestr.dir/tMap.cpp.o" \
-"CMakeFiles/2semestr.dir/tObject.cpp.o"
+"CMakeFiles/2semestr.dir/tObject.cpp.o" \
+"CMakeFiles/2semestr.dir/tDanger.cpp.o" \
+"CMakeFiles/2semestr.dir/tBase_Obj.cpp.o" \
+"CMakeFiles/2semestr.dir/functions.cpp.o"
 
 # External object files for target 2semestr
 2semestr_EXTERNAL_OBJECTS =
@@ -132,6 +174,9 @@ CMakeFiles/2semestr.dir/tObject.cpp.s: cmake_force
 2semestr: CMakeFiles/2semestr.dir/tApplication.cpp.o
 2semestr: CMakeFiles/2semestr.dir/tMap.cpp.o
 2semestr: CMakeFiles/2semestr.dir/tObject.cpp.o
+2semestr: CMakeFiles/2semestr.dir/tDanger.cpp.o
+2semestr: CMakeFiles/2semestr.dir/tBase_Obj.cpp.o
+2semestr: CMakeFiles/2semestr.dir/functions.cpp.o
 2semestr: CMakeFiles/2semestr.dir/build.make
 2semestr: /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib
 2semestr: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib
@@ -139,7 +184,7 @@ CMakeFiles/2semestr.dir/tObject.cpp.s: cmake_force
 2semestr: /opt/homebrew/lib/libsfml-window.2.5.1.dylib
 2semestr: /opt/homebrew/lib/libsfml-system.2.5.1.dylib
 2semestr: CMakeFiles/2semestr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 2semestr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable 2semestr"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2semestr.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/Constants.h">
+			<Option target="2semestr"/>
+		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/functions.cpp">
+			<Option target="2semestr"/>
+		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/functions.h">
+			<Option target="2semestr"/>
+		</Unit>
 		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/main.cpp">
 			<Option target="2semestr"/>
 		</Unit>
@@ -89,6 +98,18 @@
 			<Option target="2semestr"/>
 		</Unit>
 		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tApplication.h">
+			<Option target="2semestr"/>
+		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.cpp">
+			<Option target="2semestr"/>
+		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h">
+			<Option target="2semestr"/>
+		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tDanger.cpp">
+			<Option target="2semestr"/>
+		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tDanger.h">
 			<Option target="2semestr"/>
 		</Unit>
 		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tMap.cpp">

@@ -1,5 +1,5 @@
 #include "tObject.h"
-#include <math.h>
+#include <cmath>
 
 tObject::tObject(int _X, int _Y, int _Width, int _Height) {
     X = _X;

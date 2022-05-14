@@ -1,16 +1,23 @@
 #include "tApplication.h"
+#include "functions.h"
 
 tApplication::tApplication() : Window(nullptr) {}
 
 tApplication::~tApplication() {
     delete Window;
+    delete Map;
+    delete Object;
+    for (auto &el : Danger)
+        delete el;
 }
 
 void tApplication::Init() { // Инициализация объектов
-    Window = new sf::RenderWindow(sf::VideoMode(1500, 1500), "MyGame");
-    Map = new tMap(0, 0, 1500, 1500);
-    Object = new tObject(0, 675, 150, 150);
+    Window = new sf::RenderWindow(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "MyGame");
+    Map = new tMap(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    Object = new tObject(0, SCREEN_HEIGHT/2 + OBJECT_SIZE/2, OBJECT_SIZE, OBJECT_SIZE);
     Window->setFramerateLimit(60);
+    for (int i = 0; i < DANGER_COUNT; i++)
+        Danger.emplace_back(new tDanger(rand_uns(0, 4)));
 }
 
 void tApplication::Run() {
@@ -37,6 +44,12 @@ void tApplication::Run() {
             }
         }
 
+        for (auto &el : Danger) {
+            if (el->IsOut()) {
+                el->Run();
+            }
+        }
+
         if (left_pr)
             Object->Move(-5, 0);
         if (right_pr)
@@ -45,10 +58,16 @@ void tApplication::Run() {
             Object->Move(0, -5);
         if (down_pr)
             Object->Move(0, 5);
+        for (auto &el : Danger)
+            el->Move();
         // Очистка экрана и отрисовка всех объектов
+
+
         Window->clear();
         Map->Draw(Window);
         Object->Draw(Window);
+        for (auto &el : Danger)
+            el->Draw(Window);
         Window->display();
     }
 

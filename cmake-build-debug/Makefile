@@ -129,6 +129,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/build
 .PHONY : 2semestr/fast
 
+functions.o: functions.cpp.o
+.PHONY : functions.o
+
+# target to build an object file
+functions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/functions.cpp.o
+.PHONY : functions.cpp.o
+
+functions.i: functions.cpp.i
+.PHONY : functions.i
+
+# target to preprocess a source file
+functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/functions.cpp.i
+.PHONY : functions.cpp.i
+
+functions.s: functions.cpp.s
+.PHONY : functions.s
+
+# target to generate assembly for a file
+functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/functions.cpp.s
+.PHONY : functions.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -176,6 +200,54 @@ tApplication.s: tApplication.cpp.s
 tApplication.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tApplication.cpp.s
 .PHONY : tApplication.cpp.s
+
+tBase_Obj.o: tBase_Obj.cpp.o
+.PHONY : tBase_Obj.o
+
+# target to build an object file
+tBase_Obj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tBase_Obj.cpp.o
+.PHONY : tBase_Obj.cpp.o
+
+tBase_Obj.i: tBase_Obj.cpp.i
+.PHONY : tBase_Obj.i
+
+# target to preprocess a source file
+tBase_Obj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tBase_Obj.cpp.i
+.PHONY : tBase_Obj.cpp.i
+
+tBase_Obj.s: tBase_Obj.cpp.s
+.PHONY : tBase_Obj.s
+
+# target to generate assembly for a file
+tBase_Obj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tBase_Obj.cpp.s
+.PHONY : tBase_Obj.cpp.s
+
+tDanger.o: tDanger.cpp.o
+.PHONY : tDanger.o
+
+# target to build an object file
+tDanger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tDanger.cpp.o
+.PHONY : tDanger.cpp.o
+
+tDanger.i: tDanger.cpp.i
+.PHONY : tDanger.i
+
+# target to preprocess a source file
+tDanger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tDanger.cpp.i
+.PHONY : tDanger.cpp.i
+
+tDanger.s: tDanger.cpp.s
+.PHONY : tDanger.s
+
+# target to generate assembly for a file
+tDanger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tDanger.cpp.s
+.PHONY : tDanger.cpp.s
 
 tMap.o: tMap.cpp.o
 .PHONY : tMap.o
@@ -234,12 +306,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 2semestr"
+	@echo "... functions.o"
+	@echo "... functions.i"
+	@echo "... functions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... tApplication.o"
 	@echo "... tApplication.i"
 	@echo "... tApplication.s"
+	@echo "... tBase_Obj.o"
+	@echo "... tBase_Obj.i"
+	@echo "... tBase_Obj.s"
+	@echo "... tDanger.o"
+	@echo "... tDanger.i"
+	@echo "... tDanger.s"
 	@echo "... tMap.o"
 	@echo "... tMap.i"
 	@echo "... tMap.s"
