@@ -225,6 +225,30 @@ tBase_Obj.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tBase_Obj.cpp.s
 .PHONY : tBase_Obj.cpp.s
 
+tBoom.o: tBoom.cpp.o
+.PHONY : tBoom.o
+
+# target to build an object file
+tBoom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tBoom.cpp.o
+.PHONY : tBoom.cpp.o
+
+tBoom.i: tBoom.cpp.i
+.PHONY : tBoom.i
+
+# target to preprocess a source file
+tBoom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tBoom.cpp.i
+.PHONY : tBoom.cpp.i
+
+tBoom.s: tBoom.cpp.s
+.PHONY : tBoom.s
+
+# target to generate assembly for a file
+tBoom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tBoom.cpp.s
+.PHONY : tBoom.cpp.s
+
 tDanger.o: tDanger.cpp.o
 .PHONY : tDanger.o
 
@@ -248,6 +272,30 @@ tDanger.s: tDanger.cpp.s
 tDanger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tDanger.cpp.s
 .PHONY : tDanger.cpp.s
+
+tLives.o: tLives.cpp.o
+.PHONY : tLives.o
+
+# target to build an object file
+tLives.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tLives.cpp.o
+.PHONY : tLives.cpp.o
+
+tLives.i: tLives.cpp.i
+.PHONY : tLives.i
+
+# target to preprocess a source file
+tLives.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tLives.cpp.i
+.PHONY : tLives.cpp.i
+
+tLives.s: tLives.cpp.s
+.PHONY : tLives.s
+
+# target to generate assembly for a file
+tLives.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tLives.cpp.s
+.PHONY : tLives.cpp.s
 
 tMap.o: tMap.cpp.o
 .PHONY : tMap.o
@@ -318,9 +366,15 @@ help:
 	@echo "... tBase_Obj.o"
 	@echo "... tBase_Obj.i"
 	@echo "... tBase_Obj.s"
+	@echo "... tBoom.o"
+	@echo "... tBoom.i"
+	@echo "... tBoom.s"
 	@echo "... tDanger.o"
 	@echo "... tDanger.i"
 	@echo "... tDanger.s"
+	@echo "... tLives.o"
+	@echo "... tLives.i"
+	@echo "... tLives.s"
 	@echo "... tMap.o"
 	@echo "... tMap.i"
 	@echo "... tMap.s"

@@ -12,14 +12,6 @@
 random
 -
 
-/Users/shapkapavel/CLionProjects/2semestr/main.cpp
-iostream
--
-filesystem
--
-tApplication.h
-/Users/shapkapavel/CLionProjects/2semestr/tApplication.h
-
 /Users/shapkapavel/CLionProjects/2semestr/tApplication.cpp
 tApplication.h
 /Users/shapkapavel/CLionProjects/2semestr/tApplication.h
@@ -39,6 +31,8 @@ chrono
 -
 vector
 -
+thread
+-
 tMap.h
 /Users/shapkapavel/CLionProjects/2semestr/tMap.h
 tObject.h
@@ -47,6 +41,10 @@ tDanger.h
 /Users/shapkapavel/CLionProjects/2semestr/tDanger.h
 Constants.h
 /Users/shapkapavel/CLionProjects/2semestr/Constants.h
+tBoom.h
+/Users/shapkapavel/CLionProjects/2semestr/tBoom.h
+tLives.h
+/Users/shapkapavel/CLionProjects/2semestr/tLives.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
 SFML/Graphics.hpp
@@ -56,17 +54,19 @@ cmath
 iostream
 -
 
-/Users/shapkapavel/CLionProjects/2semestr/tDanger.cpp
-tDanger.h
-/Users/shapkapavel/CLionProjects/2semestr/tDanger.h
-Constants.h
-/Users/shapkapavel/CLionProjects/2semestr/Constants.h
+/Users/shapkapavel/CLionProjects/2semestr/tBoom.h
+tBase_Obj.h
+/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tDanger.h
 tBase_Obj.h
 /Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
 functions.h
 /Users/shapkapavel/CLionProjects/2semestr/functions.h
+
+/Users/shapkapavel/CLionProjects/2semestr/tLives.h
+tBase_Obj.h
+/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tMap.h
 SFML/Graphics.hpp
@@ -79,6 +79,10 @@ SFML/Graphics.hpp
 -
 filesystem
 -
+cmath
+-
+tBase_Obj.h
+/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
 
 /opt/homebrew/include/SFML/Config.hpp
 TargetConditionals.h

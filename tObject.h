@@ -2,18 +2,15 @@
 #define INC_2SEMESTR_TOBJECT_H
 #include <SFML/Graphics.hpp>
 #include <filesystem>
+#include <cmath>
+#include "tBase_Obj.h"
 
 
-class tObject {
-protected:
-    int X, Y, Width, Height;
-    sf::Texture SomeTexture;
+class tObject : virtual public tBase_Obj {
 
 public:
     tObject(int _X, int _Y, int _Width, int _Height);
     ~tObject();
-    void Draw(sf::RenderWindow *Window);
-    bool Contains(int _X, int _Y);
     void Move(int dX, int dY);
 };
 

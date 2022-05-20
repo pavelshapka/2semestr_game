@@ -157,6 +157,32 @@ CMakeFiles/2semestr.dir/functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2semestr.dir/functions.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shapkapavel/CLionProjects/2semestr/functions.cpp -o CMakeFiles/2semestr.dir/functions.cpp.s
 
+CMakeFiles/2semestr.dir/tBoom.cpp.o: CMakeFiles/2semestr.dir/flags.make
+CMakeFiles/2semestr.dir/tBoom.cpp.o: ../tBoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/2semestr.dir/tBoom.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2semestr.dir/tBoom.cpp.o -c /Users/shapkapavel/CLionProjects/2semestr/tBoom.cpp
+
+CMakeFiles/2semestr.dir/tBoom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2semestr.dir/tBoom.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shapkapavel/CLionProjects/2semestr/tBoom.cpp > CMakeFiles/2semestr.dir/tBoom.cpp.i
+
+CMakeFiles/2semestr.dir/tBoom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2semestr.dir/tBoom.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shapkapavel/CLionProjects/2semestr/tBoom.cpp -o CMakeFiles/2semestr.dir/tBoom.cpp.s
+
+CMakeFiles/2semestr.dir/tLives.cpp.o: CMakeFiles/2semestr.dir/flags.make
+CMakeFiles/2semestr.dir/tLives.cpp.o: ../tLives.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/2semestr.dir/tLives.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2semestr.dir/tLives.cpp.o -c /Users/shapkapavel/CLionProjects/2semestr/tLives.cpp
+
+CMakeFiles/2semestr.dir/tLives.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2semestr.dir/tLives.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shapkapavel/CLionProjects/2semestr/tLives.cpp > CMakeFiles/2semestr.dir/tLives.cpp.i
+
+CMakeFiles/2semestr.dir/tLives.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2semestr.dir/tLives.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shapkapavel/CLionProjects/2semestr/tLives.cpp -o CMakeFiles/2semestr.dir/tLives.cpp.s
+
 # Object files for target 2semestr
 2semestr_OBJECTS = \
 "CMakeFiles/2semestr.dir/main.cpp.o" \
@@ -165,7 +191,9 @@ CMakeFiles/2semestr.dir/functions.cpp.s: cmake_force
 "CMakeFiles/2semestr.dir/tObject.cpp.o" \
 "CMakeFiles/2semestr.dir/tDanger.cpp.o" \
 "CMakeFiles/2semestr.dir/tBase_Obj.cpp.o" \
-"CMakeFiles/2semestr.dir/functions.cpp.o"
+"CMakeFiles/2semestr.dir/functions.cpp.o" \
+"CMakeFiles/2semestr.dir/tBoom.cpp.o" \
+"CMakeFiles/2semestr.dir/tLives.cpp.o"
 
 # External object files for target 2semestr
 2semestr_EXTERNAL_OBJECTS =
@@ -177,6 +205,8 @@ CMakeFiles/2semestr.dir/functions.cpp.s: cmake_force
 2semestr: CMakeFiles/2semestr.dir/tDanger.cpp.o
 2semestr: CMakeFiles/2semestr.dir/tBase_Obj.cpp.o
 2semestr: CMakeFiles/2semestr.dir/functions.cpp.o
+2semestr: CMakeFiles/2semestr.dir/tBoom.cpp.o
+2semestr: CMakeFiles/2semestr.dir/tLives.cpp.o
 2semestr: CMakeFiles/2semestr.dir/build.make
 2semestr: /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib
 2semestr: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib
@@ -184,7 +214,7 @@ CMakeFiles/2semestr.dir/functions.cpp.s: cmake_force
 2semestr: /opt/homebrew/lib/libsfml-window.2.5.1.dylib
 2semestr: /opt/homebrew/lib/libsfml-system.2.5.1.dylib
 2semestr: CMakeFiles/2semestr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable 2semestr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable 2semestr"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2semestr.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

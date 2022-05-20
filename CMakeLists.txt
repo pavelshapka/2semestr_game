@@ -4,7 +4,7 @@ project(2semestr)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 
-set(SOURCE_FILES main.cpp tApplication.cpp tApplication.h tMap.cpp tMap.h tObject.cpp tObject.h tDanger.cpp tDanger.h tBase_Obj.cpp tBase_Obj.h Constants.h functions.h functions.cpp)
+set(SOURCE_FILES main.cpp tApplication.cpp tApplication.h tMap.cpp tMap.h tObject.cpp tObject.h tDanger.cpp tDanger.h tBase_Obj.cpp tBase_Obj.h Constants.h functions.h functions.cpp tBoom.cpp tBoom.h tLives.cpp tLives.h)
 add_executable(2semestr ${SOURCE_FILES})
 include_directories(/usr/local/include)
 

@@ -36,10 +36,17 @@ bool tDanger::IsOut() {
 }
 
 void tDanger::Run() {
-    Speed = rand_uns(5, 25);
+    Speed = rand_uns(5, 5);
     X = SCREEN_WIDTH;
     Y = rand_uns(0, SCREEN_HEIGHT - Height);
     Width = rand_uns(50, 200);
     Height = Width;
 
+}
+
+bool tDanger::IsCollisison(float _X, float _Y, float _Width, float _Height) {
+    float R_ou = sqrt(pow(X + Width/2 - (_X + _Width/2), 2) + pow(Y + Height/2 - (_Y + _Width/2), 2));
+    if (R_ou <= Width/2 + _Width/2)
+        return true;
+    return false;
 }

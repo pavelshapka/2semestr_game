@@ -13,25 +13,6 @@ tObject::tObject(int _X, int _Y, int _Width, int _Height) {
 
 tObject::~tObject() = default;
 
-void tObject::Draw(sf::RenderWindow *Window) {
-    sf::Sprite SpriteStuff;
-    SpriteStuff.setTexture(SomeTexture);
-    SpriteStuff.setPosition(X, Y);
-    // Масштабирование объекта
-    float WidgetWight = float(Width)/float(SomeTexture.getSize().x);
-    float WidgetHeight = float(Height)/float(SomeTexture.getSize().y);
-    SpriteStuff.setScale(WidgetWight, WidgetHeight);
-
-    Window->draw(SpriteStuff);
-}
-
-bool tObject::Contains(int _X, int _Y) {
-    int center_x = X + Width/2;
-    int center_y = Y + Height/2;
-    // Проверка на столкновение (ищем расстояние от точки до центра)
-    return sqrt(pow(_X - center_x, 2) + pow(_Y - center_y, 2)) ? true : false;
-}
-
 void tObject::Move(int dX, int dY) {
     X += dX;
     Y += dY;

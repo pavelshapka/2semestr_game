@@ -13,6 +13,7 @@ public:
     void Move();
     bool IsOut();
     void Run();
+    bool IsCollisison(float _X, float _Y, float _Width, float _Height);
 };
 
 

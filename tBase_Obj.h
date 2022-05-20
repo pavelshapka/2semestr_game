@@ -10,8 +10,15 @@ protected:
     sf::Texture SomeTexture;
 
 public:
+    tBase_Obj();
+    ~tBase_Obj();
     void LoadImage(const std::string& img_filename);
     void Draw(sf::RenderWindow *Window);
+    float get_X();
+    float get_Y();
+    float get_Width();
+    float get_Height();
+    void set_Position(float c_X, float c_Y);
 };
 
 

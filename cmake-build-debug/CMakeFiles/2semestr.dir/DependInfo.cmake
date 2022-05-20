@@ -12,7 +12,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shapkapavel/CLionProjects/2semestr/main.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/main.cpp.o"
   "/Users/shapkapavel/CLionProjects/2semestr/tApplication.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tApplication.cpp.o"
   "/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tBase_Obj.cpp.o"
+  "/Users/shapkapavel/CLionProjects/2semestr/tBoom.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tBoom.cpp.o"
   "/Users/shapkapavel/CLionProjects/2semestr/tDanger.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tDanger.cpp.o"
+  "/Users/shapkapavel/CLionProjects/2semestr/tLives.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tLives.cpp.o"
   "/Users/shapkapavel/CLionProjects/2semestr/tMap.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tMap.cpp.o"
   "/Users/shapkapavel/CLionProjects/2semestr/tObject.cpp" "/Users/shapkapavel/CLionProjects/2semestr/cmake-build-debug/CMakeFiles/2semestr.dir/tObject.cpp.o"
   )

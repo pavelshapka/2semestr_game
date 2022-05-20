@@ -7,10 +7,13 @@
 #include <iostream>
 #include <chrono>
 #include <vector>
+#include <thread>
 #include "tMap.h"
 #include "tObject.h"
 #include "tDanger.h"
 #include "Constants.h"
+#include "tBoom.h"
+#include "tLives.h"
 
 class tApplication {
 protected:
@@ -18,6 +21,8 @@ protected:
     tMap *Map;
     tObject *Object;
     std::vector<tDanger*> Danger;
+    tBoom *Boom;
+    std::vector<tLives*> Lives;
 
 public:
     tApplication();
@@ -25,6 +30,5 @@ public:
     void Init();
     void Run();
 };
-
 
 #endif
