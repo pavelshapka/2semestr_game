@@ -118,6 +118,12 @@
 		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tDanger.h">
 			<Option target="2semestr"/>
 		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tEnd.cpp">
+			<Option target="2semestr"/>
+		</Unit>
+		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tEnd.h">
+			<Option target="2semestr"/>
+		</Unit>
 		<Unit filename="/Users/shapkapavel/CLionProjects/2semestr/tLives.cpp">
 			<Option target="2semestr"/>
 		</Unit>

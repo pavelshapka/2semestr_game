@@ -14,6 +14,7 @@
 #include "Constants.h"
 #include "tBoom.h"
 #include "tLives.h"
+#include "tEnd.h"
 
 class tApplication {
 protected:
@@ -23,6 +24,7 @@ protected:
     std::vector<tDanger*> Danger;
     tBoom *Boom;
     std::vector<tLives*> Lives;
+    tEnd *End;
 
 public:
     tApplication();

@@ -273,6 +273,30 @@ tDanger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tDanger.cpp.s
 .PHONY : tDanger.cpp.s
 
+tEnd.o: tEnd.cpp.o
+.PHONY : tEnd.o
+
+# target to build an object file
+tEnd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tEnd.cpp.o
+.PHONY : tEnd.cpp.o
+
+tEnd.i: tEnd.cpp.i
+.PHONY : tEnd.i
+
+# target to preprocess a source file
+tEnd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tEnd.cpp.i
+.PHONY : tEnd.cpp.i
+
+tEnd.s: tEnd.cpp.s
+.PHONY : tEnd.s
+
+# target to generate assembly for a file
+tEnd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semestr.dir/build.make CMakeFiles/2semestr.dir/tEnd.cpp.s
+.PHONY : tEnd.cpp.s
+
 tLives.o: tLives.cpp.o
 .PHONY : tLives.o
 
@@ -372,6 +396,9 @@ help:
 	@echo "... tDanger.o"
 	@echo "... tDanger.i"
 	@echo "... tDanger.s"
+	@echo "... tEnd.o"
+	@echo "... tEnd.i"
+	@echo "... tEnd.s"
 	@echo "... tLives.o"
 	@echo "... tLives.i"
 	@echo "... tLives.s"

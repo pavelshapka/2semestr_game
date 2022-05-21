@@ -7,10 +7,20 @@
 #IncludeRegexTransform: 
 
 /Users/shapkapavel/CLionProjects/2semestr/Constants.h
+filesystem
+-
 
 /Users/shapkapavel/CLionProjects/2semestr/functions.h
 random
 -
+
+/Users/shapkapavel/CLionProjects/2semestr/main.cpp
+iostream
+-
+filesystem
+-
+tApplication.h
+/Users/shapkapavel/CLionProjects/2semestr/tApplication.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tApplication.cpp
 tApplication.h
@@ -45,6 +55,12 @@ tBoom.h
 /Users/shapkapavel/CLionProjects/2semestr/tBoom.h
 tLives.h
 /Users/shapkapavel/CLionProjects/2semestr/tLives.h
+tEnd.h
+/Users/shapkapavel/CLionProjects/2semestr/tEnd.h
+
+/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.cpp
+tBase_Obj.h
+/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
 SFML/Graphics.hpp
@@ -53,10 +69,22 @@ cmath
 -
 iostream
 -
+Constants.h
+/Users/shapkapavel/CLionProjects/2semestr/Constants.h
+
+/Users/shapkapavel/CLionProjects/2semestr/tBoom.cpp
+tBoom.h
+/Users/shapkapavel/CLionProjects/2semestr/tBoom.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tBoom.h
 tBase_Obj.h
 /Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
+
+/Users/shapkapavel/CLionProjects/2semestr/tDanger.cpp
+tDanger.h
+/Users/shapkapavel/CLionProjects/2semestr/tDanger.h
+Constants.h
+/Users/shapkapavel/CLionProjects/2semestr/Constants.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tDanger.h
 tBase_Obj.h
@@ -64,20 +92,42 @@ tBase_Obj.h
 functions.h
 /Users/shapkapavel/CLionProjects/2semestr/functions.h
 
+/Users/shapkapavel/CLionProjects/2semestr/tEnd.cpp
+tEnd.h
+/Users/shapkapavel/CLionProjects/2semestr/tEnd.h
+
+/Users/shapkapavel/CLionProjects/2semestr/tEnd.h
+tBase_Obj.h
+/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
+
+/Users/shapkapavel/CLionProjects/2semestr/tLives.cpp
+tLives.h
+/Users/shapkapavel/CLionProjects/2semestr/tLives.h
+
 /Users/shapkapavel/CLionProjects/2semestr/tLives.h
 tBase_Obj.h
 /Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
 
+/Users/shapkapavel/CLionProjects/2semestr/tMap.cpp
+tMap.h
+/Users/shapkapavel/CLionProjects/2semestr/tMap.h
+iostream
+-
+
 /Users/shapkapavel/CLionProjects/2semestr/tMap.h
 SFML/Graphics.hpp
 /Users/shapkapavel/CLionProjects/2semestr/SFML/Graphics.hpp
-filesystem
--
+tBase_Obj.h
+/Users/shapkapavel/CLionProjects/2semestr/tBase_Obj.h
+Constants.h
+/Users/shapkapavel/CLionProjects/2semestr/Constants.h
+
+/Users/shapkapavel/CLionProjects/2semestr/tObject.cpp
+tObject.h
+/Users/shapkapavel/CLionProjects/2semestr/tObject.h
 
 /Users/shapkapavel/CLionProjects/2semestr/tObject.h
 SFML/Graphics.hpp
--
-filesystem
 -
 cmath
 -

@@ -1,28 +1,26 @@
 #include "tObject.h"
-#include <cmath>
 
-tObject::tObject(int _X, int _Y, int _Width, int _Height) {
+tObject::tObject(float _X, float _Y, float _Width, float _Height) {
     X = _X;
     Y = _Y;
     Width = _Width;
     Height = _Height;
-    std::string path = std::filesystem::current_path();
     // Загрузка картинки
-    SomeTexture.loadFromFile(path + "/resources/images/orb.png");
+    SomeTexture.loadFromFile(PATH + "/resources/images/orb.png");
 }
 
 tObject::~tObject() = default;
 
-void tObject::Move(int dX, int dY) {
+void tObject::Move(float dX, float dY) {
     X += dX;
     Y += dY;
     // Проверка на нахождение в окне
-    if (X + Width > 1500)
-        X = 1500 - Width;
+    if (X + Width > SCREEN_WIDTH)
+        X = SCREEN_WIDTH - Width;
     else if (X < 0)
         X = 0;
-    if (Y + Height > 1500)
-        Y = 1500 - Height;
+    if (Y + Height > SCREEN_HEIGHT)
+        Y = SCREEN_HEIGHT - Height;
     else if (Y < 0)
         Y = 0;
 }

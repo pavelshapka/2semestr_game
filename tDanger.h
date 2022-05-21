@@ -12,7 +12,7 @@ public:
     ~tDanger();
     void Move();
     bool IsOut();
-    void Run();
+    void Run(float _speed);
     bool IsCollisison(float _X, float _Y, float _Width, float _Height);
 };
 

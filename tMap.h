@@ -2,17 +2,13 @@
 #define INC_2SEMESTR_TMAP_H
 
 #include "SFML/Graphics.hpp"
-#include <filesystem>
+#include "tBase_Obj.h"
+#include "Constants.h"
 
-class tMap {
-protected:
-    int X, Y, Width, Height;
-    sf::Texture SomeTexture;
-
+class tMap : virtual public tBase_Obj {
 public:
-    tMap(int _X, int _Y, int _Width, int _Height);
+    tMap();
     ~tMap();
-    void Draw(sf::RenderWindow *Window);
 };
 
 
